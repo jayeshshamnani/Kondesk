@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 770.79 953.71" style="enable-background:new 0 0 770.79 953.71;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.15;fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:#020202;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="382.7249" y1="743.6566" x2="581.8738" y2="204.4225">
+		<stop  offset="0" style="stop-color:#8647E1"/>
+		<stop  offset="1" style="stop-color:#B78FED"/>
+	</linearGradient>
+	<polygon class="st0" points="0,563.04 770.79,0 754.58,953.71 	"/>
+	<g>
+		<polyline class="st1" points="636.04,581.48 671.85,581.48 671.85,295.03 277.98,295.03 277.98,581.48 313.78,581.48 		"/>
+		<line class="st1" x1="269.03" y1="671" x2="680.8" y2="671"/>
+		<path class="st1" d="M591.28,554.63v-26.85c0-19.77-16.03-35.81-35.81-35.81h-17.9c-19.78,0-35.81,16.03-35.81,35.81v26.85"/>
+		<path class="st1" d="M430.15,617.29v-8.04c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72v8.04"/>
+		<path class="st1" d="M519.67,617.29v-8.04c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72v8.04"/>
+		<path class="st1" d="M609.19,617.29v-8.04c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72v8.04"/>
+		<path class="st1" d="M385.4,671v-16.99c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72V671"/>
+		<path class="st1" d="M474.91,671v-16.99c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72V671"/>
+		<path class="st1" d="M564.43,671v-16.99c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72V671"/>
+		<path class="st1" d="M653.94,671v-16.99c0-25.22-19.76-36.72-44.76-36.72c-24.99,0-44.76,11.5-44.76,36.72V671"/>
+		<path class="st1" d="M546.52,465.11c15,0,26.85-12.02,26.85-26.85v-8.95c0-14.83-11.86-26.85-26.85-26.85
+			c-15,0-26.85,12.02-26.85,26.85v8.95C519.67,453.09,531.53,465.11,546.52,465.11z"/>
+	</g>
+</g>
+</svg>

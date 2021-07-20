@@ -1,0 +1,15 @@
+footer form .form-group .form-control:focus ~ .focus-border {
+    width: calc(100% - 25px);
+    transition: 0.4s;
+  }
+  footer form .form-group .form-control ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background: -moz-linear-gradient(left, $primary-color 0%, $primary-color 50%, rgb(176,216,243) 100%);
+    background: -webkit-linear-gradient(left, $primary-color 0%, $primary-color 50%, rgb(176,216,243) 100%);
+    background: linear-gradient(to right, $primary-color 0%, $primary-color 50%, rgb(176,216,243) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="rgb(176,216,243)",GradientType=1 );
+    transition: 0.4s;
+  }

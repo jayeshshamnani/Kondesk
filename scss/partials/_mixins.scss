@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@mixin lineawesome{ font-family: 'Line Awesome Free'; font-weight: 900; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; } 
+@mixin ellipsis{ 
+display: block; 
+display: -webkit-box;
+height: 75px;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+@mixin transform($args){
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	transform: $args;
+}
+
+@mixin transition($args){
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	transition: $args;
+}
+
+@mixin box-shadow($args){
+	-webkit-box-shadow: $args;
+	-moz-box-shadow: $args;
+	-ms-box-shadow: $args;
+	box-shadow: $args;
+}
+
+@mixin box-shadow-two($arg, $args){
+	-webkit-box-shadow: $arg, $args;
+	-moz-box-shadow: $arg, $args;
+	-ms-box-shadow: $arg, $args;
+	box-shadow: $arg, $args;
+}
+
+ 
+@mixin placeholder($color){
+	&::-webkit-input-placeholder {color: $color; opacity: 1;}
+	&::-moz-placeholder {color: $color; opacity: 1;}
+	&:-ms-input-placeholder {color: $color; opacity: 1;}
+	&:-moz-placeholder {color: $color; opacity: 1;}	
+}
+
+@mixin appearance-none{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none; 
+	-o-appearance: none; 
+	appearance: none;
+	&::-ms-expand{display: none;}
+}
+
+@mixin transform-origin($origin){
+	-webkit-transform-origin: $origin;
+	-moz-transform-origin: $origin;
+	-ms-transform-origin: $origin; 
+	-o-transform-origin: $origin; 
+	transform-origin: $origin;
+}
+@mixin transform-origin($origin){
+	-webkit-transform-origin: $origin;
+	-moz-transform-origin: $origin;
+	-ms-transform-origin: $origin; 
+	-o-transform-origin: $origin; 
+	transform-origin: $origin;
+}
+
+@mixin user-select($args){
+	-webkit-user-select: $args;
+	-moz-user-select: $args;
+	-ms-user-select: $args;
+	user-select: $args;
+}
+
+@mixin transform-style($args){
+  -webkit-transform-style: $args;
+  -moz-transform-style: $args;
+  -ms-transform-style: $args;
+  transform-style: $args;
+}
+@mixin animation-duration($args) {
+  -o-animation-duration: $args;
+  -moz-animation-duration: $args;
+  -webkit-animation-duration: $args;
+  animation-duration: $args;
+}
+@mixin border-image($args) {
+  -webkit-border-image: $args;
+  -o-border-image: $args;
+  border-image: $args;
+}
+@mixin filter($args) {
+  -webkit-filter: $args;
+  filter: $args;
+}
+
+  
+ 
+@mixin bg-gradient-1{
+	background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(247,241,255) 23%, rgb(239,227,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(247,241,255) 23%, rgb(239,227,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(247,241,255) 23%, rgb(239,227,255) 100%);
+  }
+
+  @mixin bg-gradient-2{
+	background-image: -moz-linear-gradient( -83deg, rgb(250,245,255) 69%, rgb(255,255,255) 100%, rgb(176,216,243) 100%, rgb(205,33,61) 100%);
+	background-image: -webkit-linear-gradient( -83deg, rgb(250,245,255) 69%, rgb(255,255,255) 100%, rgb(176,216,243) 100%, rgb(205,33,61) 100%);
+	background-image: -ms-linear-gradient( -83deg, rgb(250,245,255) 69%, rgb(255,255,255) 100%, rgb(176,216,243) 100%, rgb(205,33,61) 100%);
+  }
+  @mixin bg-gradient-3{
+	background-image: -moz-linear-gradient( 0deg, rgb(253,251,255) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(253,251,255) 0%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(253,251,255) 0%, rgb(255,255,255) 100%);
+  }
+  @mixin bg-gradient-4{
+	background-image: -moz-linear-gradient( -86deg, rgb(250,245,255) 69%, rgb(255,255,255) 100%, rgb(176,216,243) 100%, rgb(205,33,61) 100%);
+    background-image: -webkit-linear-gradient( -86deg, rgb(250,245,255) 69%, rgb(255,255,255) 100%, rgb(176,216,243) 100%, rgb(205,33,61) 100%);
+    background-image: -ms-linear-gradient( -86deg, rgb(250,245,255) 69%, rgb(255,255,255) 100%, rgb(176,216,243) 100%, rgb(205,33,61) 100%);
+  }
+  @mixin bg-gradient-5{
+	background-image: -moz-linear-gradient( 45deg, rgb(172,127,235) 0%, rgb(134,72,226) 100%);
+	background-image: -webkit-linear-gradient( 45deg, rgb(172,127,235) 0%, rgb(134,72,226) 100%);
+	background-image: -ms-linear-gradient( 45deg, rgb(172,127,235) 0%, rgb(134,72,226) 100%);
+  }
+  @mixin bg-gradient-6{
+	background: -moz-linear-gradient(left, $primary-color 0%, $primary-color 50%, #e3000f 100%);
+    background: -webkit-linear-gradient(left, $primary-color 0%, $primary-color 50%, #e3000f 100%);
+    background: linear-gradient(to right, $primary-color 0%, $primary-color 50%, #e3000f 100%);
+  }
+  

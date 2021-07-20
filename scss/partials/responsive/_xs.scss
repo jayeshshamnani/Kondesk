@@ -1,0 +1,6 @@
+/* rxt-scroll-img-wrap */
+.rxt-scroll-img-wrap { overflow: hidden; height: 200px; position: relative;
+    .rxt-scroll-img { @include transition(ease all 6s); }
+    &:hover .rxt-scroll-img { @include transform(translateY(calc(-100% + 200px))); }
+  }
+  /* /rxt-scroll-img-wrap */
